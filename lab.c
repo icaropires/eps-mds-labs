@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-void run(){printf("texto\n");}
+void run(){printf("Abóbora"); printf("texto\n");}
 
 int main(){run(); return 0;}
