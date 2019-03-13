@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void run(int a){
+void run(){
 printf("Abóbora"); 
-printf("texto\n %d", &a);
+printf("texto\n");
 }
 
 int main(){
