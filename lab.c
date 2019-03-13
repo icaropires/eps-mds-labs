@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-void run(){
+void run(int a){
 printf("Abóbora"); 
-printf("texto\n");
+printf("texto\n %d", a);
 }
 
 int main(){
-run(); 
+int a;
+scanf("%d", &a);
+run(a); 
 return 0;
 }
